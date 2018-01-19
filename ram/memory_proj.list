@@ -1,0 +1,15 @@
+@0000 0E05 // LOAD E (Quotient)
+@0001 0B01 // ADD B (1 data)
+@0002 0E06 // STORE to E
+@0003 0C05 // LOAD C (data)
+@0004 0D07 // SUB D (by 5)
+@0005 0804 // JUMPZ out to 08 *** CHECK **
+@0006 0C06 // STORE C
+@0007 0003 // JUMP to 00
+@0008 0000  
+@0009 0000
+@000a 0000
+@000b 0001 // one data
+@000c 0064 // data = 100
+@000d 0005 // sub data = 5
+@000e 0000 // Quotient value 
